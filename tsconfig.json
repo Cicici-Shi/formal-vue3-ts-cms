@@ -1,0 +1,43 @@
+{
+  "compilerOptions": {
+    "target": "esnext",//目标代码（ts->js(es5/6/7))之后再通过babel和webpack对其转换
+    "module": "esnext",//目标代码需要使用的模块化方案（commonjs->require/module.exports;esmodule->import/export)"umd"表示多种模块化
+    "strict": true,//严格的检查，any
+    "jsx": "preserve",//要对jsx做怎样的处理，preserve保留。用了babel就可以不转化了
+    "moduleResolution": "node",//按照node的方式解析模块 自动加js、JSon
+    "skipLibCheck": true,//跳过一些库的类型检测（axios、lodash、其他的第三方）减少性能消耗、避免命名冲突
+
+    "esModuleInterop": true,//export default和Module.exports即es module和commonjs能不能混合使用，可以就这辆设为true
+    "allowSyntheticDefaultImports": true,
+
+    "forceConsistentCasingInFileNames": true,
+    "useDefineForClassFields": true,
+    "sourceMap": true,//要不要生成映射文件(ts->js)
+    "baseUrl": ".",//文件路径在解析时，基本的URL。这里.是基于当前的文件
+    "types": [    // 指定具体要解析使用的类型。也可以不写，默认在上面target写的什么就允许使用什么
+      "webpack-env"
+    ],
+    "paths": {// 路径解析(类似于webpack alias)
+      "@/*": [
+        "src/*"//没有匹配到第一个的话就匹配第二个
+      ]
+    },"suppressImplicitAnyIndexErrors": true, //加入这段代码解决main.ts报错icon问题
+    "lib": [// 可以指定在项目中可以使用哪些库的类型(Proxy/Window/Document)
+      "esnext",
+      "dom",
+      "dom.iterable",
+      "scripthost"
+    ]
+  },
+  "include": [//当前哪些ts代码需要编译解析
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
+    // "src/custom-types.d.ts",
+    "tests/**/*.ts",//测试代码
+    "tests/**/*.tsx"
+  ],
+  "exclude": [//把include里面的，属于exclude类型排除
+    "node_modules"
+  ]
+}
