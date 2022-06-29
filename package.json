@@ -7,7 +7,7 @@
         "build": "vue-cli-service build",
         "lint": "vue-cli-service lint",
         "predeploy": "npm run build",
-        "deploy": "gh-pages -d build -r https://github.com/Cicici-Shi/vue3-ts-cms.git -b gh-pages"
+        "deploy": "gh-pages -d build -r https://github.com/Cicici-Shi/formal-vue3-ts-cms.git -b gh-pages"
     },
     "dependencies": {
         "@element-plus/icons-vue": "^1.1.4",
