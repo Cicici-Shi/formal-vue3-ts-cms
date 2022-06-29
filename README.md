@@ -47,15 +47,14 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ## 项目截图
 
-![image](https://github.com/Cicici-Shi/Cici-img/blob/main/images/YS%7DGOZZO6ONXCNS4%7D%7D%5BG47K.png)
-![image](https://github.com/Cicici-Shi/Cici-img/blob/main/images/G%5D%40)%24Z_ZW%5DTAQ~)QFMA%25H2G.png)
-![image](https://github.com/Cicici-Shi/Cici-img/blob/main/images/JTYOVHC88G47(RQBW%60JAH%5BN.png)
-![image](https://github.com/Cicici-Shi/Cici-img/blob/main/images/%403RKR(41%24279A%7DB%7BZUSDZXX.png)
-![image](https://github.com/Cicici-Shi/Cici-img/blob/main/images/_%5DT%25HZ9%7BOK_NEWL%40GBLM7%5DL.png)
-![image](https://github.com/Cicici-Shi/Cici-img/blob/main/images/)O7W%5B30IL~%7B%5DKD_WN)6ZEY5.png)
-![image](https://github.com/Cicici-Shi/Cici-img/blob/main/images/2X8~6P~51PN2G%60)%60JBJ0%24JA.png)
 
-### 联系
+![image](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/3574/1.png)
+![image](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/3574/2.png)
+![image](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/3574/3.png)
+![image](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/3574/4.png)
+![image](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/3574/5.png)
+![image](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/3574/6.png)
+![image](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/3574/7.png)
 
 - WeChat：SYC19011
 
